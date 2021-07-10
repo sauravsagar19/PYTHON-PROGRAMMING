@@ -1,0 +1,5 @@
+x=input("name?")
+y=open(x)
+rd=y.read()
+z=rd.upper()
+print(z)
