@@ -1,9 +1,6 @@
-x=input('give a number')
-y=int(x)
-if y>1:
-    print('more than 1')
-elif y<1:
-    print('less than 1')
-else:
-    print('enter valid number')
-print('all done') 
+first_name=input()
+last_name = input()
+print("Hello " + first_name,last_name +"! You just delved into python.")
+  #Using commas to separate the words has added a default space before the exclamation mark. Replacing the comma with '+' and the code works!
+
+# print ("Hello "+ a + " " + b + "! You just delved into python.")
